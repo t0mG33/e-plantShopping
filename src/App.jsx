@@ -7,8 +7,10 @@ import AboutUs from './AboutUs';
 function App() {
   
   const [showProductList, setShowProductList] = useState(false);
+  const [showCart, setShowCart] = useState(false);
 
   const handleGetStartedClick = () => {
+    setShowCart(true);
     setShowProductList(true);
   };
 
