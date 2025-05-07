@@ -218,7 +218,7 @@ body {
     cursor: pointer;
   }
   
-  .product-button:hover {
+  .product-button:hover:not(:disabled) {
     background-color: #45a049;
   }
   
